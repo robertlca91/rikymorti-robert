@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Locations/>
       <footer>
-        <img className="logo" src="https://github.com/paul3183/Rick-And-Morty-Proyect/blob/main/src/assets/images-removebg-preview.png?raw=true" alt=""/>
+        <img className="logo" src="https://github.com/paul3183/Rick-And-Morty-Proyect/raw/main/src/assets/images-removebg-preview.png" alt="img"/>
         <h3>DEVELOPERS</h3>
         <p>Paul Ruiz</p>
         <p>Miguel Martinez</p>
