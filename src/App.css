@@ -55,7 +55,7 @@ h1:hover {
     min-width: 32rem;
     max-width: 80rem;
     margin: 0 auto;
-    font-size: 4rem;
+    font-size: 5rem;
 
 }
 
@@ -105,6 +105,7 @@ h1:hover {
 
 h2{
     padding-left: 2rem;
+    font-size: 2rem;
 }
 
 .red {
@@ -129,7 +130,7 @@ h2{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    color: white;
+    color: rgb(0, 255, 8);
 }
 .inter{
     width: 30%;
@@ -156,8 +157,6 @@ input{
     position: relative;
 }
 
-
-
 button{
     padding: 1rem;
     border-radius: 2rem;
@@ -166,9 +165,12 @@ button{
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
     border-style: none;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px 1px black;
 }
+
 .list {
-    margin-top: 3rem;
+    margin-top: 7rem;
     background-color: var(--background-color-character);
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
@@ -177,6 +179,11 @@ button{
     -o-border-radius: 2rem;
     overflow: hidden;
     padding-bottom: 2rem;
+
+}
+
+.list:hover {
+    box-shadow: 10px 12px 40px 10px;
 }
 
 .image-user{
